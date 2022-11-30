@@ -27,7 +27,7 @@ SECRET_KEY = config('DJANGO_SECRET_KEY')
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = ['dhkwak.herokuapp.com', '192.168.56.101', '127.0.0.1']
+ALLOWED_HOSTS = ['dhkwakherokuapp.com', '192.168.56.101', '127.0.0.1']
 
 
 # Application definition
