@@ -27,7 +27,7 @@ SECRET_KEY = config('DJANGO_SECRET_KEY')
 # DEBUG = True
 DEBUG = False
 
-ALLOWED_HOSTS = ['dhkwakherokuapp.com', '192.168.56.101', '127.0.0.1']
+ALLOWED_HOSTS = ['dhkwakheroku.herokuapp.com', '192.168.56.101', '127.0.0.1']
 
 
 # Application definition
@@ -158,7 +158,7 @@ TAGGIT_CASE_INSENSITIVE = True
 TAGGIT_LIMIT = 50
 
 DISQUS_SHORTNAME = 'pydjango-web-programming'
-DISQUS_MY_DOMAIN = 'https://dhkwakheroku.herokuapp.com'
+DISQUS_MY_DOMAIN = 'https://dhkwakheroku.herokuapp.com/'
 
 LOGIN_REDIRECT_URL = '/'
 
